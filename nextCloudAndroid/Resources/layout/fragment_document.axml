@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ececec"
+    android:id="@+id/spacefragment">
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ListViewFiles"
+        android:layout_above="@+id/newitem_btn"
+        android:layout_alignParentBottom="false" />
+    <ImageView
+        android:src="@drawable/mesdocuments_icon"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:id="@+id/mesdocuments_logo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:text="Recherche des documents..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mesdocuments_logo"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:id="@+id/mesdocuments_text"
+        android:textColor="#BCBCBC" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mesdocuments_text"
+        android:id="@+id/lay_btns"
+        android:layout_marginTop="0.0dp">
+        <Button
+            android:text="+"
+            android:id="@+id/newitem_btn"
+            android:background="@drawable/bg_btn_plus"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffffff" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_above="@id/newitem_btn"
+            android:id="@+id/popup_new"
+            android:weightSum="100"
+            android:layout_alignParentBottom="true"
+            android:background="#FFFFFF"
+            android:visibility="gone">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:id="@+id/new_folder_layout"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/bg_item_plus"
+                android:clickable="true">
+                <ImageView
+                    android:src="@drawable/ic_folder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/logo_folder"
+                    android:layout_gravity="center" />
+                <TextView
+                    android:text="Dossier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_dossier"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="#909090" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:id="@+id/import_file_layout"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_item_plus"
+                android:clickable="true">
+                <ImageView
+                    android:src="@drawable/ic_join"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/logo_join"
+                    android:layout_gravity="center" />
+                <TextView
+                    android:text="Joindre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_join"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="12sp"
+                    android:textColor="#909090" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mesdocuments_text"
+        android:id="@+id/loading_files"
+        android:layout_marginTop="5dp" />
+</RelativeLayout>

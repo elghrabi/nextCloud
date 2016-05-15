@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ececec"
+    android:id="@+id/spacefragment">
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ListViewFiles"
+        android:layout_above="@+id/newitem_btn"
+        android:layout_alignParentBottom="false" />
+    <ImageView
+        android:src="@drawable/nextdoc_icon"
+        android:layout_width="350dp"
+        android:layout_height="120.2dp"
+        android:id="@+id/folder_logo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:text="Recherche des fichiers..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/folder_logo"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:id="@+id/folder_text"
+        android:textColor="#BCBCBC"
+        android:textSize="16sp" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/folder_text"
+        android:id="@+id/loading_files"
+        android:layout_marginTop="5dp" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res/res-auto" >
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="Recherche"
+          android:showAsAction="ifRoom"/>
+</menu>

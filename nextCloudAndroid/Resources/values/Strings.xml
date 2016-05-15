@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">nextCloud</string>
+	<string name="username_hint">Nom d\'utilisateur</string>
+	<string name="password_hint">Mot de Passe</string>
+	<string name="access_text">ACCEDER</string>
+	<string name="joinUs">REJOIGNEZ-NOUS</string>
+	<string name="email_hint">Email</string>
+	<string name="sign_up_button_label">VALIDER</string>
+	<string name="signup_error_message">Vérifiez est-ce que vous avez entré un nom d\'utilisateur, mot de passe, et adresse e-mail!</string>
+	<string name="signup_error_title">Erreur</string>
+	<string name="login_error_message">Nom d\'utilisateur ou mot de passe incorrecte.</string>
+	<string name="login_error_title">Erreur</string>
+	<string name="input_empty">Nom d\'utilisateur ou mot de passe non valide.</string>
+	<string name="login_button_label">Authentification</string>
+	<string name="sign_up_text">Rejoignez-Nous!</string>
+	<string name="logout_label">Se déconnecter</string>
+	<string name="open_drawer">Ouvrir le menu</string>
+	<string name="close_drawer">Fermer le menu</string>
+	<string name="app_name">nextCloud</string>
+	<string name="no_files_or_directories">Pas de fichiers ou dossiers</string>
+    <string name="desc_list_item_icon">Icon</string>
+
+    <string name = "filepicker_ApplicationName">$projectname$</string>
+    <string name = "filepicker_ok">OK</string>
+    <string name = "filepicker_cancel_label">Annuler</string>
+    <string name = "filepicker_confirm_label">Confirmer</string>
+    <string name = "filepicker_selected_folder_label">Dossier selectionné:</string>
+    <string name = "filepicker_selected_file_label">Fichier selectionné:</string>
+    <string name = "filepicker_create_folder_label">Créer un dossier</string>
+    <string name = "filepicker_enter_folder_msg">Entrer le nom du dossier</string>
+    <string name = "filepicker_create_folder_msg">Créer un nouveau dossier sous nom "%1$s"?</string>
+    <string name = "filepicker_create_folder_success">Nouveau dossier créé</string>
+    <string name = "filepicker_create_folder_error_no_write_access">Impossible d\'écrire dans ce dossier</string>
+    <string name = "filepicker_create_folder_error_already_exists">Le dossier selectionné existe déjà</string>
+    <string name = "filepicker_create_folder_error">Impossible de créer le dossier</string>
+    <string name = "filepicker_up_label">Up</string>
+
+    <string-array name="menu">
+	    <item>Edit</item>
+	    <item>Delete</item>
+	    <item>Send</item>
+  	</string-array>
+</resources>
