@@ -24,7 +24,6 @@ namespace nextCloudAndroid
 		public override void OnCreate ()
 		{
 			base.OnCreate ();
-
 			ParseClient.Initialize ("Application ID here", ".NET Key here");
 		}
 	}
