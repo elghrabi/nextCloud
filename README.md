@@ -34,11 +34,11 @@ public override void OnCreate ()
 
 ![layout2](https://user-images.githubusercontent.com/6306036/34408004-3f0c4d42-ebb9-11e7-9189-46586b73c869.jpg)
 
-#### Added items
+#### Sidebar Navigation
 
 ![layout3](https://user-images.githubusercontent.com/6306036/34408049-741ada9e-ebb9-11e7-9af4-23b59cb53a24.jpg)
 
-#### Sidebar Navigation
+#### Added items
 
 ![layout4](https://user-images.githubusercontent.com/6306036/34408072-9104b49a-ebb9-11e7-9897-5d01af6aacb6.jpg)
 
