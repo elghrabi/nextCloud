@@ -22,6 +22,10 @@ public override void OnCreate ()
 ```
 ## Layouts
 
+#### Login
+
+![login](https://user-images.githubusercontent.com/6306036/34412515-9bf3f7b4-ebd5-11e7-976b-002290d23a8b.jpg)
+
 #### Main Screen (No items)
 
 ![layout1](https://user-images.githubusercontent.com/6306036/34407645-5c3ae3ee-ebb7-11e7-91c8-9f020928658c.jpg)
