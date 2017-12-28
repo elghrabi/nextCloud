@@ -1,7 +1,7 @@
 # nextCloud 
 nextCloud is an android application sample for files storage. It is written in C# (Xamarin) and uses Parse cloud to store data and manage identity log-ins.
 
-![nextCloud]({{site.baseurl}}//xamarin_nextcloud.jpg)![xamarin_nextcloud.jpg]({{site.baseurl}}/xamarin_nextcloud.jpg)
+![nextCloud]({{site.baseurl}}/https://github.com/elghrabi/nextCloud/blob/master/xamarin_nextcloud.jpg)
 
 
 Shared code is in "SharedProj" folder and contains necessary classes
